@@ -1,5 +1,5 @@
 console.log(`I' m config.js page`);
-console.log("version 2");
+console.log("version 3");
 
 // commit in  git consider as version , or history
 
