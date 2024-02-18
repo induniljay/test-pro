@@ -1,5 +1,5 @@
 console.log(`I' m config.js page`);
-console.log("version 4");
+console.log("version 6");
 
 // commit in  git consider as version , or history
 
@@ -47,11 +47,38 @@ git checkout <commit hash>
 git log --all --graph
 
 @get_previous_branch_content_to_current_branch
-git checkout <prev commithash> <files>
+git checkout <prev commit hash> <files>
 
 @change_commnad
 git config --global alias.s "status"
 
 @remove_git_from_project
 rm -rf .git
+ */
+
+/**part -2  connect local and remote repos
+
+@connect_local_and_remote_repo
+git remote <repo nickname>  <remote repo https link>
+ex: git remote add origin https://github.com/induniljay/test-pro.git
+
+git remote --> give list of remote repos , currently link with local project
+
+
+@unlink_connection
+git remote remove <remote repo name>  
+ex : git remote remove <origin> 
+
+
+
+@push
+step-1: set credential
+git config --global credential.username "<git username>"
+git config --global credential.username "induniljay"
+
+step-2:
+git push <remote repo> <local branch name>
+git push origin main
+
+
  */
