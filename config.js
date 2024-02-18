@@ -89,4 +89,25 @@ git push origin main --set-upstream
  but we sync with github, it branching happening, then we try to add github it, it will throw error 
  reason for that by default github doesn't allow this beheviour, but we can override it
  git push origin main -f
+
+
+ @clone  (download github project to desktop)
+ git clone
+ git clone https://github.com/induniljay/test-pro.git <copy-of-test>
+
+
+ @fetch
+ assume same pproject we did some modification from downloading clone not the old project,
+ now old project is behind the new commint.
+ we need to sync again
+ for that we use
+
+ git fetch
+
+ now our local repo is behind remote repo
+ we need to sync
+ for that
+
+@sync
+ git pull origin main
  */
