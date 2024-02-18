@@ -1,5 +1,6 @@
 console.log(`I' m config.js page`);
 console.log("version 6");
+console.log("changes done by another account");
 
 // commit in  git consider as version , or history
 
