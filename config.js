@@ -45,4 +45,7 @@ git checkout <commit hash>
 
 @check_branching_effect
 git log --all --graph
+
+@get_previous_branch_content_to_current_branch
+get checkout <commithash> <files>
  */
