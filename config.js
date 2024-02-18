@@ -80,5 +80,9 @@ step-2:
 git push <remote repo> <local branch name>
 git push origin main
 
+@push_shorthand
+git push origin main --set-upstream
+//then it will remember the origin and main we can simply interatc with git push command only.
+
 
  */
