@@ -84,5 +84,8 @@ git push origin main
 git push origin main --set-upstream
 //then it will remember the origin and main we can simply interatc with git push command only.
 
-
+//we know we can edit already commited history in local
+ but we sync with github, it branching happening, then we try to add github it, it will throw error 
+ reason for that by default github doesn't allow this beheviour, but we can override it
+ git push origin main -f
  */
