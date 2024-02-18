@@ -47,5 +47,11 @@ git checkout <commit hash>
 git log --all --graph
 
 @get_previous_branch_content_to_current_branch
-get checkout <commithash> <files>
+git checkout <prev commithash> <files>
+
+@change_commnad
+git config --global alias.s "status"
+
+@remove_git_from_project
+rm -rf .git
  */
